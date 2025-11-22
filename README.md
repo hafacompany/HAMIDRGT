@@ -24,13 +24,14 @@ The RGT script is a powerful tool for setting up tunnels based on TCP and UDP pr
 
 **Quick Execution:**
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/black-sec/RGT/main/rgt_manager.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/hafacompany/HAMIDRGT/main/rgt_manager.sh)
 ```
 
 Download the script from the link below:
 ```
-wget https://github.com/black-sec/RGT/raw/main/rgt_manager.sh -O /root/rgt_manager.sh
+wget https://github.com/hafacompany/HAMIDRGT/raw/main/rgt_manager.sh -O /root/rgt_manager.sh
 chmod +x /root/rgt_manager.sh
+/root/rgt_manager.sh
 ```
 
 Alternatively, upload the `rgt_manager.sh` file via SFTP to the `/root/` directory.
@@ -45,7 +46,7 @@ RGT
 
 If your server has access to GitHub:
 ```
-wget https://github.com/black-sec/RGT/raw/main/core/RGT_x86_64_linux.zip -O /root/RGT/RGT_x86_64_linux.zip
+wget https://github.com/hafacompany/HAMIDRGT/raw/main/core/RGT_x86_64_linux.zip -O /root/RGT/RGT_x86_64_linux.zip
 ```
 
 If you don’t have access to GitHub, upload the `RGT_x86_64_linux.zip` file via SFTP to the `/root/RGT/` directory on your server:
